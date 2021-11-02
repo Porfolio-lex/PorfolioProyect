@@ -1,0 +1,72 @@
+#Contenido_Principal
+{
+    background-color: aquamarine;
+}
+
+#Menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+#Menu img 
+{
+
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+#Menu nav  
+{
+    align-items: center;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;   
+}
+#Menu ul 
+{
+    background-color: rgb(15, 12, 233);
+    list-style: none;
+    display: flex;
+    
+    align-items: flex-end; 
+} 
+#Menu ul li
+{
+    padding: 18px;
+    color: rgb(8, 8, 7);
+    text-transform: uppercase;
+}
+#Menu ul li:hover
+{
+    background-color: rgb(236, 236, 252);
+}
+
+#Cuerpo_Calendario 
+{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+#Cuerpo_Calendario #Login img 
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+}
+#Cuerpo_Calendario #Login
+{
+  background-color: burlywood;
+  width: 45%;
+}
+#Cuerpo_Calendario #Login input 
+{
+    margin: 20px;
+}
